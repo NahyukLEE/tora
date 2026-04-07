@@ -10,9 +10,9 @@
 <sup>1</sup> Independent Researcher, <sup>2</sup> ETH Zurich, <sup>2</sup>ETH AI Center &ensp; | &ensp; \* denotes equal contribution
 
 <!-- TODO: Add badges when available -->
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-blue?logo=arxiv&color=%23B31B1B)]() -->
+[![arXiv](https://img.shields.io/badge/arXiv-2604.04050-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2604.04050) 
 [![ProjectPage](https://img.shields.io/badge/Project_Page-TORA-blue)](https://nahyuklee.github.io/tora/)
-<!-- [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-yellow)]() -->
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-yellow)](https://huggingface.co/NahyukLEE/tora)
 
 </div>
 
