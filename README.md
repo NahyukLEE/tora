@@ -5,7 +5,7 @@
 [Nahyuk Lee](https://nahyuklee.github.io/)\*<sup>,1</sup>,
 [Zhiang Chen](https://github.com/RCKola)\*<sup>,2</sup>,
 [Marc Pollefeys](https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys)<sup>2</sup>,
-[Hong Sunghwan](https://sunghwanhong.github.io/)<sup>2,3</sup>
+[Sunghwan Hong](https://sunghwanhong.github.io/)<sup>2,3</sup>
 
 <sup>1</sup> Independent Researcher, <sup>2</sup> ETH Zurich, <sup>3</sup> ETH AI Center &ensp; | &ensp; \* denotes equal contribution
 
