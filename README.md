@@ -95,8 +95,7 @@ Teacher weights are stored in `pretrained/` and downloaded automatically when ne
 
 ### TORA Checkpoints
 
-> [!NOTE]
-> Pretrained TORA checkpoints are not yet available. See [Todo List](#todo-list).
+Pretrained TORA checkpoints are provided in [Hugging Face](https://huggingface.co/NahyukLEE/tora).
 
 
 ## Usage
