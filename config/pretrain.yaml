@@ -1,0 +1,29 @@
+# Pretraining encoder
+
+defaults:
+  - model/feature_extractor: ptv3_object
+  - data: rpf/rpf_encoder
+  - trainer: pretrain
+  - loggers: wandb
+  - _self_
+
+# Random seed for reproducibility
+seed: 42
+
+# Data root
+data_root: "../dataset"
+
+# Experiment name and log directory
+experiment_name: "TORA_pretrain"
+log_dir: ./output/${experiment_name}
+ckpt_path: ${log_dir}/last.ckpt
+hydra:
+  run:
+    dir: ${log_dir}
+
+model:
+  compute_overlap_points: true
+  build_overlap_head: true
+
+data:
+  limit_val_samples: 1000

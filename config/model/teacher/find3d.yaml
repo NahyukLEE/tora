@@ -1,0 +1,3 @@
+_target_: tora.teacher.Find3DTeacher
+repr_dim: 768
+teacher_size: find3d_base

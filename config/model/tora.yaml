@@ -1,0 +1,37 @@
+defaults:
+  - feature_extractor: ptv3_object
+  - flow_model: dit
+  - teacher: uni3d
+  - projector: mlp
+  - alignment_loss: cka
+
+_target_: tora.modeling.TORA
+
+optimizer:
+  _target_: torch.optim.AdamW
+  _partial_: True
+  lr: 5e-4
+  betas: [0.95, 0.999]
+  weight_decay: 1e-6
+  eps: 1e-8
+
+lr_scheduler:
+  _target_: torch.optim.lr_scheduler.MultiStepLR
+  _partial_: True
+  milestones: [1000, 1200, 1400, 1600, 1800]
+  gamma: 0.5
+
+timestep_sampling: "u_shaped"
+inference_sampler: "euler"
+inference_sampling_steps: 50
+n_generations: 1
+anchor_free: False
+use_repa: True
+pred_type: "v"
+repa_stop: null
+extra_metrics: []
+use_spatial_norm: false
+spatial_norm_gamma: 0.7
+precompute_teacher: false
+teacher_cache_dir: ${log_dir}/teacher_cache
+free_teacher_after_cache: true

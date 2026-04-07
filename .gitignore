@@ -1,0 +1,41 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info/
+
+# Output
+/output
+/outputs
+/logs
+/weights
+lightning_logs/
+*.log
+
+# OS
+.DS_Store
+
+# Dev
+.vscode
+.idea
+/local
+
+# Demo results
+/demo/visualizations
+/demo/results
+/demo/features
+
+# Pretrained weights
+/pretrained
+
+# Poetry
+poetry.lock
+
+# Torch
+torch_compile_debug/*
+
+# Core dumps
+core_*
+
+# Agent
+.claude
+CLAUDE.md

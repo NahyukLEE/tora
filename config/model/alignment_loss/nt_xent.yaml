@@ -1,0 +1,3 @@
+_target_: tora.modeling.loss.NTXentLoss
+lmbda: 0.5
+temperature: 0.07

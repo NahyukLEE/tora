@@ -1,0 +1,4 @@
+_target_: tora.teacher.OpenShapeTeacher
+repr_dim: 1280
+teacher_size: openshape_pointbert_vitg14_rgb
+use_clip_projection: true

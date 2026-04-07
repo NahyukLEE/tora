@@ -1,0 +1,37 @@
+# Inference / sampling
+
+defaults:
+  - model: tora
+  - data: main/bbad_everyday
+  - trainer: infer
+  - loggers: wandb
+  - _self_
+  - override hydra/hydra_logging: disabled
+
+# Seed
+seed: 42
+
+# Disable hydra logging
+hydra:
+  verbose: false
+  run:
+    dir: ${log_dir}
+
+# Data
+data_root: ./demo/data
+data:
+  batch_size: 1
+  num_workers: 1
+
+# Log directory
+log_dir: ./demo/sample
+
+# Checkpoint path
+ckpt_path: null          # when null, the checkpoint will be downloaded from Hugging Face
+
+# Model settings
+model:
+  encoder_ckpt: null
+  flow_model_ckpt: null
+  n_generations: 3
+  save_results: true     # save evaluation results to log_dir/results

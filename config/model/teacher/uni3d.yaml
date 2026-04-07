@@ -1,0 +1,7 @@
+_target_: tora.teacher.Uni3DTeacher
+repr_dim: 3072
+# all sizes output repr_dim=3072 (embed_dim=1024 * 3 layers)
+# teacher_size: uni3d_base
+# teacher_size: uni3d_large
+# teacher_size: uni3d_giant
+teacher_size: uni3d_large

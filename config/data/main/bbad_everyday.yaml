@@ -1,0 +1,17 @@
+_target_: tora.data.PointCloudDataModule
+num_points_to_sample: 5000
+min_parts: 2
+max_parts: 64
+min_points_per_part: 20
+anchor_free: false
+multi_anchor: false
+
+data_root: ${data_root}
+dataset_names: ["everyday"]
+up_axis: {
+  "everyday": "z",
+}
+
+batch_size: 32
+num_workers: 64
+limit_val_samples: 0  # 0 for all samples

@@ -1,0 +1,4 @@
+_target_: tora.teacher.PatchAlign3DTeacher
+repr_dim: 1280
+teacher_size: patchalign3d_base
+use_clip_projection: true

@@ -1,0 +1,5 @@
+_target_: tora.teacher.ConcertoTeacher
+repr_dim: 1536
+teacher_size: concerto_large
+# upcast_k: point cloud upsampling factor (1 = no upsampling, typical range: 1-4)
+upcast_k: 2

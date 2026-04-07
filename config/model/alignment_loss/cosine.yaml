@@ -1,0 +1,2 @@
+_target_: tora.modeling.loss.CosineLoss
+lmbda: 0.5
